@@ -29,7 +29,13 @@ also using without ip version is allowed
 python main.py -f <filename> #ipv4 used as default
 ->0.0.0.0/4
 ```
-The time of execution increases according to size of ip-address list and supposedly equals to O(2n)
+The time of execution increases according to size of ip-address list and supposedly equals to O(2n).
+
+The application doesn't consider the type of address (subnet or broadcast), but reports about it.
+For example, if 8.0.0.0 is in list of ip-addresses and it is address of subnet:
+```
+->address 11.255.255.255 is broadcast address of current subnet 8.0.0.0/6. You can not use it as a host address
+```
 
 ### Running the tests
 test_main.py file contains minimal tests set for checking application
