@@ -34,7 +34,7 @@ The time of execution increases according to size of ip-address list and suppose
 The application doesn't consider the type of address (subnet or broadcast), but reports about it.
 For example, if 8.0.0.0 is in list of ip-addresses and it is address of subnet:
 ```
-->address 11.255.255.255 is broadcast address of current subnet 8.0.0.0/6. You can not use it as a host address
+->address 8.0.0.0 is address of current subnet 8.0.0.0/6. You can not use it as a host address
 ```
 
 ### Running the tests
