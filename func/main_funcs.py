@@ -48,4 +48,4 @@ def find_min_subnet(filename):
     if broadcast_addr_str in content:
         return f'address {broadcast_addr_str} is broadcast address of current subnet {net_addr_str}. ' \
                f'You can not use it as a host address'
-    return net_addr_str
+    return f'Result net: {net_addr_str}'
