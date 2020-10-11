@@ -30,7 +30,7 @@ python main.py -f <filename> #ipv4 used as default
 
 ###Running the tests
 test_main.py file contains minimal tests set for checking application
-Attention! For testing your oun ip address sets, change paths to file at test_main.py 
+Attention! For testing your own ip address sets, change paths to file at test_main.py 
 
 ###Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
