@@ -1,8 +1,8 @@
-##Minimum subnet finder
+## Minimum subnet finder
 This application developed for finding minimum subnet for list of ip addresses 
 
-###Getting started
-####Installing
+### Getting started
+#### Installing
 You need python 3.7 version or higher
 
 Pull this repo and install requirement from reqiuirements.txt
@@ -28,18 +28,18 @@ python main.py -f <filename> #ipv4 used as default
 ->0.0.0.0/4
 ```
 
-###Running the tests
+### Running the tests
 test_main.py file contains minimal tests set for checking application
 Attention! For testing your own ip address sets, change paths to file at test_main.py 
 
-###Contributing
+### Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-###Version
+### Version
 Current version developed as a minimum allowed test task and supports working with only ipv4 version.
 
-###Authors
+### Authors
 __Dmitry Chepyzhov__
 
-###License
+### License
 This project is licensed under the DTL FreeType Project LICENSE - see the LICENSE.md file for details
