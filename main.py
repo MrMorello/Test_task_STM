@@ -9,4 +9,3 @@ parser.add_argument('-v', action="store", dest="ip_version", default='IPv4', typ
 args = parser.parse_args()
 filename = args.filename  # type: str
 print(find_min_subnet(filename))
-

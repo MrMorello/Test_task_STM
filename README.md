@@ -10,6 +10,8 @@ Pull this repo and install requirement from reqiuirements.txt
 #### Using
 For getting a minimum subnet for ip-addresses list use CLI
 
+parameters: -f \<filename>, -v \<ip version> 
+
 __Examples:__
 
 use -h for get help
@@ -27,16 +29,26 @@ also using without ip version is allowed
 python main.py -f <filename> #ipv4 used as default
 ->0.0.0.0/4
 ```
+The time of execution increases according to size of ip-address list and supposedly equals to O(2n)
 
 ### Running the tests
 test_main.py file contains minimal tests set for checking application
 Attention! For testing your own ip address sets, change paths to file at test_main.py 
 
+**Test coverage:**
+
+| Name  | Stmts | Miss | Cover | Missing|
+| ------------- | ------------- | ------------- | ------------- | -------------|
+| func/\__init__.py  | 0  | 0 | 100% |
+| func/main_funcs.py  | 37  | 0 | 100% |
+| test_main.py | 37 | 1 | 97% | 47 |
+| TOTAL | 74 | 1 | 99% | 
+
 ### Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ### Version
-Current version developed as a minimum allowed test task and supports working with only ipv4 version.
+Current version developed as a minimum allowed test task and supports working only with ipv4 version.
 
 ### Authors
 __Dmitry Chepyzhov__
